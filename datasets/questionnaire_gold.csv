@@ -1,0 +1,54 @@
+id,question,expected_answer,expected_source
+Q01,Do you enforce multi-factor authentication for all employees?,Yes,access-control.md
+Q02,Is MFA required for administrative accounts?,Yes,access-control.md
+Q03,What is the minimum password length?,Text,access-control.md
+Q04,Are passwords shared between employees?,No,access-control.md
+Q05,Do you use single sign-on (SSO) for SaaS applications?,Yes,access-control.md
+Q06,How frequently are user access reviews performed?,Text,access-control.md
+Q07,Is access revoked within 24 hours when an employee is terminated?,Yes,access-control.md
+Q08,Is production access restricted based on least privilege?,Yes,access-control.md
+Q09,Does remote access require a VPN?,Yes,access-control.md
+Q10,Is customer data encrypted at rest?,Yes,data-protection.md
+Q11,Which encryption algorithm protects data at rest?,Text,data-protection.md
+Q12,Is data encrypted in transit using TLS 1.2 or higher?,Yes,data-protection.md
+Q13,Are encryption keys rotated?,Yes,data-protection.md
+Q14,Where are encryption keys managed?,Text,data-protection.md
+Q15,Do you have a data classification scheme?,Yes,data-protection.md
+Q16,Is customer data deleted after contract termination?,Yes,data-protection.md
+Q17,Is customer data stored on removable media or personal devices?,No,data-protection.md
+Q18,In which regions is customer data hosted?,Text,data-protection.md
+Q19,Do you have a documented incident response plan?,Yes,incident-response.md
+Q20,Will customers be notified of a security breach affecting their data?,Yes,incident-response.md
+Q21,Within how many hours are customers notified of a breach?,Text,incident-response.md
+Q22,How often is the incident response plan tested?,Text,incident-response.md
+Q23,Do you perform post-incident reviews?,Yes,incident-response.md
+Q24,Is there 24x7 incident response coverage?,Yes,incident-response.md
+Q25,Are production databases backed up daily?,Yes,business-continuity.md
+Q26,Are backups replicated to another region?,Yes,business-continuity.md
+Q27,How often are backup restores tested?,Text,business-continuity.md
+Q28,What are your RPO and RTO?,Text,business-continuity.md
+Q29,Is the disaster recovery plan tested annually?,Yes,business-continuity.md
+Q30,Are services deployed across multiple availability zones?,Yes,business-continuity.md
+Q31,Do you assess the security of vendors before onboarding?,Yes,vendor-management.md
+Q32,Do vendor contracts include data processing agreements?,Yes,vendor-management.md
+Q33,Do you publish a list of subprocessors?,Yes,vendor-management.md
+Q34,Are code changes peer reviewed before merging?,Yes,secure-development.md
+Q35,Are production changes deployed only through a CI/CD pipeline?,Yes,secure-development.md
+Q36,Do you run static analysis (SAST) on code?,Yes,secure-development.md
+Q37,Is a third-party penetration test performed annually?,Yes,secure-development.md
+Q38,What are your vulnerability remediation timelines?,Text,secure-development.md
+Q39,Is production data used in development or test environments?,No,secure-development.md
+Q40,Are security events logged centrally?,Yes,logging-monitoring.md
+Q41,How long are audit logs retained?,Text,logging-monitoring.md
+Q42,Are logs protected against tampering?,Yes,logging-monitoring.md
+Q43,Are clocks synchronized using NTP?,Yes,logging-monitoring.md
+Q44,Are background checks performed on new employees?,Yes,hr-security.md
+Q45,Do employees receive annual security awareness training?,Yes,hr-security.md
+Q46,Do employees sign confidentiality agreements?,Yes,hr-security.md
+Q47,Do you operate a public bug bounty program?,Review,
+Q48,Are your data centers protected by biometric access controls?,Review,
+Q49,Do you hold PCI DSS Level 1 certification?,Review,
+Q50,Is customer data processed using artificial intelligence models?,Review,
+Q51,Do you maintain cyber insurance coverage?,Review,
+Q52,Are mobile devices managed with an MDM solution?,Review,
+Q53,Is there a dedicated Data Protection Officer?,Review,
