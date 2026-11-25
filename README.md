@@ -11,6 +11,7 @@
   <a href="#accuracy-and-performance"><img alt="Automatic answer precision 100%" src="https://img.shields.io/badge/auto--answer_precision-100%25-1F1B16?style=flat-square"></a>
   <a href="#control-mapping-and-gap-analysis"><img alt="SOC 2, ISO 27001, NIST CSF" src="https://img.shields.io/badge/maps_to-SOC_2_%C2%B7_ISO_27001_%C2%B7_NIST_CSF-1F1B16?style=flat-square"></a>
   <a href="#privacy"><img alt="Runs offline" src="https://img.shields.io/badge/runs-offline-1F1B16?style=flat-square"></a>
+  <a href="https://crates.io/crates/questproof"><img alt="crates.io" src="https://img.shields.io/crates/v/questproof?style=flat-square&color=1F1B16"></a>
   <a href="LICENSE"><img alt="MIT license" src="https://img.shields.io/badge/license-MIT-1F1B16?style=flat-square"></a>
 </p>
 
@@ -37,7 +38,7 @@
 ## Quick start
 
 ```bash
-cargo install --git https://github.com/ahmed-raza-shaikh/questproof
+cargo install questproof
 
 questproof answer \
   --policies examples/policies \
