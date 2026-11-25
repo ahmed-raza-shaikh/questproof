@@ -1,7 +1,16 @@
 [package]
-name = "compliance-autopilot"
+name = "questproof"
 version = "0.1.0"
 edition = "2024"
+description = "Security questionnaire automation (SIG, CAIQ, vendor reviews): answers from your own policies with citations, confidence and SOC 2 / ISO 27001 / NIST CSF mapping."
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/ahmed-raza-shaikh/questproof"
+homepage = "https://github.com/ahmed-raza-shaikh/questproof"
+keywords = ["compliance", "soc2", "iso27001", "questionnaire", "grc"]
+categories = ["command-line-utilities", "text-processing"]
+authors = ["Ahmed Raza Shaikh"]
+exclude = ["assets/*", "target/*"]
 
 [dependencies]
 anyhow = "1"

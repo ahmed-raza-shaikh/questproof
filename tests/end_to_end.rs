@@ -1,6 +1,6 @@
-use compliance_autopilot::answer::{Config, Engine, Status, days_from_iso, load_library};
-use compliance_autopilot::corpus::Corpus;
-use compliance_autopilot::eval;
+use questproof::answer::{Config, Engine, Status, days_from_iso, load_library};
+use questproof::corpus::Corpus;
+use questproof::eval;
 use std::path::Path;
 
 fn engine(library: bool) -> Engine {

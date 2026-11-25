@@ -1,8 +1,8 @@
 use anyhow::Context;
 use clap::{Parser, Subcommand, ValueEnum};
-use compliance_autopilot::answer::{self, Answer, Config, Engine, Status, days_from_iso};
-use compliance_autopilot::corpus::Corpus;
-use compliance_autopilot::{controls, eval, llm};
+use questproof::answer::{self, Answer, Config, Engine, Status, days_from_iso};
+use questproof::corpus::Corpus;
+use questproof::{controls, eval, llm};
 use serde::Deserialize;
 use std::io::Write;
 use std::path::PathBuf;

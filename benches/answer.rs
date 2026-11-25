@@ -1,6 +1,6 @@
-use compliance_autopilot::answer::{Config, Engine};
-use compliance_autopilot::corpus::Corpus;
 use criterion::{Criterion, Throughput, criterion_group, criterion_main};
+use questproof::answer::{Config, Engine};
+use questproof::corpus::Corpus;
 use std::hint::black_box;
 use std::path::Path;
 
